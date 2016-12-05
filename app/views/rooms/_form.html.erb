@@ -38,7 +38,7 @@
 
         <div class="form-group">
           <%= f.label :price_per_night, "Precio de la Noche" %>
-          <%= f.number_field :price_per_night , class: 'form-control input-lg' %>
+          <%= f.number_field :price_per_night, :step => "0.01", class: 'form-control input-lg' %>
         </div>
 
         <div class="actions text-right">
